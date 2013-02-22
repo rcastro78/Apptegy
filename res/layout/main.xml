@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_image"
+     >
+
+    <Button
+        android:id="@+id/btnParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@layout/blue_button"
+        android:text="Parent Organizations" />
+
+    <Button
+        android:id="@+id/btnPosts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnParent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@layout/blue_button"
+        android:text="Posts" />
+
+    <Button
+        android:id="@+id/btnNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPosts"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@layout/blue_button"
+        android:text="News" />
+
+    <Button
+        android:id="@+id/btnSecOrg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnNews"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@layout/blue_button"
+        android:text="Secondary Organizations" />
+
+    <Button
+        android:id="@+id/btnEvents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSecOrg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@layout/blue_button"
+        android:text="Events" />
+
+    <Button
+        android:id="@+id/btnDirectory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEvents"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@layout/blue_button"
+        android:text="Directory" />
+
+    <Button
+        android:id="@+id/btnSports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDirectory"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@layout/blue_button"
+        android:text="Sports" />
+
+       <Button
+        android:id="@+id/btnSportsEv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSports"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@layout/blue_button"
+        android:text="Sport Events" />
+    
+    
+    
+</RelativeLayout>
+</ScrollView>

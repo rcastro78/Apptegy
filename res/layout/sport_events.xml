@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 
+    android:layout_width="match_parent"
+ 
+    android:layout_height="match_parent"
+ 
+    android:orientation="vertical"
+ 
+    android:padding="2dp"
+ 
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sport Events Results"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <ListView
+         android:id="@+id/listView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/gradient_bg_red"
+         android:divider="#b5b5b5"
+         android:dividerHeight="5dp"
+         >
+
+    </ListView>
+    
+    
+  </LinearLayout>  
