@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" 
+    >
+
+        <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        
+        android:padding="5dp" >
+
+          
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left" 
+            android:padding="5dp" 
+            >
+            
+  <ImageView	
+      android:id="@+id/imageView1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/facebook32" />
+
+ <TextView
+    android:id="@+id/txtFBFeeds"
+    android:layout_width="200dip"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_toRightOf="@+id/ImageView1"
+    android:text="sport"
+    android:layout_marginLeft="2dp"
+    android:padding="2dp"
+    android:textColor="#0000A3"
+    android:textStyle="bold"
+    android:typeface="sans" />          
+           
+              
+        </TableRow>
+  
+
+   
+   
+ 
+ 
+        </TableLayout>
+
+     
+    
+   
+    
+   
+</RelativeLayout>

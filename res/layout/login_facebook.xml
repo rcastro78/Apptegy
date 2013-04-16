@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="5dip" 
+    >
+
+	<TextView android:id="@+id/login_status"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:text=""
+	    android:textColor="#FFFFFF"/>
+	        
+	      <ListView
+	          android:id="@+id/listView2"
+	          android:layout_width="match_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_below="@+id/txtSurvey"
+	          android:background="#FFFFFF"
+	          android:divider="#0000FF"
+	          android:dividerHeight="5dp" >
+
+    </ListView>   
+	        
+	        
+	        
+	        
+	        
+
+	        <requestFocus />
+
+	        <TextView
+	            android:id="@+id/txtSurvey"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@+id/login_status"
+	            android:layout_alignParentTop="true"
+	            android:text="Facebook Newsfeed"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	            
+</RelativeLayout>

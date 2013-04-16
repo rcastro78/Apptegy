@@ -11,7 +11,7 @@
     >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/txtSurvey"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sport Events Results"
@@ -21,8 +21,8 @@
          android:id="@+id/listView2"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:background="@drawable/gradient_bg_red"
-         android:divider="#b5b5b5"
+         android:background="@drawable/gradient_gray"
+         android:divider="#2E2E2E"
          android:dividerHeight="5dp"
          >
 

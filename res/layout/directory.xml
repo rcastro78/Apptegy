@@ -11,20 +11,21 @@
     >
 
     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+        android:id="@+id/txtSurvey"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#00EEFF"
+        android:gravity="center_horizontal"
         android:text="Directory"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000FF" />
 
      <ListView
          android:id="@+id/listView2"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:background="@drawable/gradient_bg_red"
-         android:divider="#b5b5b5"
-         android:dividerHeight="5dp"
-         >
+         android:divider="#2E2E2E"
+         android:dividerHeight="1dp" >
 
     </ListView>
     

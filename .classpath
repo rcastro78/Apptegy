@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="C:/JARs/facebook.jar"/>
+	<classpathentry kind="lib" path="C:/JARs/jtwitter.jar"/>
+	<classpathentry kind="lib" path="C:/JARs/signpost-commonshttp4-1.2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/JARs/signpost-core-1.2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/JARs/twitter4j-core-2.1.6.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

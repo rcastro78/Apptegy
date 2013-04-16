@@ -11,14 +11,14 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="left"
         android:padding="5dp" >
 
         <TableRow
             android:id="@+id/tableRow1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal" >
+            android:gravity="left" >
 
             <TextView
                 android:id="@+id/txtTeamLocal"
@@ -27,29 +27,24 @@
                 android:layout_marginRight="10dp"
                 android:padding="8dp"
                 android:text="Local"
-                android:textColor="#040404"
-                android:textSize="12dip"
+                android:textColor="#00004c"
                 android:textStyle="bold"
-                android:typeface="sans" />
+                android:typeface="sans" 
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
             
-            <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_gravity="center"
-            >
+           
 
            <TextView
                android:id="@+id/txtScore"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:layout_centerHorizontal="true"
-               android:background="@layout/yellow_button"
                android:gravity="center_horizontal"
-               android:minWidth="80dp"
-               android:padding="8dp"
+               android:minWidth="40dp"
+               android:padding="3dp"
                android:text="00 - 00"
-               android:textColor="#FFFFFF"
+               android:textColor="#00004c"
                android:textSize="12dip"
                android:textStyle="bold"
                android:typeface="sans" />
@@ -63,21 +58,42 @@
     android:text="Visitor"
     android:layout_marginLeft="10dp"
     android:padding="8dp"
-    android:textColor="#040404"
+    android:textColor="#00004c"
     android:textSize="12dip"
     android:textStyle="bold"
     android:typeface="sans" />          
            
    
-    </LinearLayout>  
            
         </TableRow>
                 
-        
+ <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left" >
+ 
+<TextView
+    android:id="@+id/txtAddress"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_toRightOf="@+id/ImageView1"
+    android:text="Address:"
+    android:layout_marginLeft="8dp"
+    android:padding="2dp"
+    android:textColor="#000033"
+    android:textSize="12dip"
+    android:textStyle="bold"
+    android:typeface="sans" />       
+      
+     
+     
+     
+</TableRow>     
         
         </TableLayout>
 
-     
     
    
     

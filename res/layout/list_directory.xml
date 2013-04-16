@@ -23,400 +23,79 @@
             >
             
 
+
            <TextView
-               android:id="@+id/txtAdd"
+               android:id="@+id/txtName"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:layout_centerHorizontal="true"
-               android:background="@layout/yellow_button"
-               android:gravity="center_horizontal"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+               android:gravity="left"
                android:minWidth="80dp"
-               android:padding="8dp"
-               android:text="Address:"
-               android:textColor="#FFFFFF"
-               android:textSize="12dip"
-               android:textStyle="bold"
-               android:typeface="sans" />
-
- <TextView
-    android:id="@+id/txtAddress"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centerHorizontal="true"
-    android:layout_toRightOf="@+id/ImageView1"
-    android:text="address"
-    android:layout_marginLeft="10dp"
-    android:padding="8dp"
-    android:textColor="#040404"
-    android:textSize="12dip"
-    android:textStyle="bold"
-    android:typeface="sans" />          
-           
-              
-        </TableRow>
-                
-     <TableRow
-            android:id="@+id/tableRow2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="left" 
-            android:padding="5dp" >
-            
-
-           <TextView
-               android:id="@+id/txtCTy"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_centerHorizontal="true"
-               android:background="@layout/yellow_button"
-               android:gravity="center_horizontal"
-               android:minWidth="80dp"
-               android:padding="8dp"
-               android:text="Cont. Type:"
-               android:textColor="#FFFFFF"
-               android:textSize="12dip"
-               android:textStyle="bold"
-               android:typeface="sans" />
-
- <TextView
-    android:id="@+id/txtContType"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centerHorizontal="true"
-    android:layout_toRightOf="@+id/ImageView1"
-    android:text="type"
-    android:layout_marginLeft="10dp"
-    android:padding="8dp"
-    android:textColor="#040404"
-    android:textSize="12dip"
-    android:textStyle="bold"
-    android:typeface="sans" />          
-           
-              
-        </TableRow>
-
-     
-     
-     
-     <TableRow
-            android:id="@+id/tableRow3"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="left" 
-            android:padding="5dp" >
-            
-
-           <TextView
-               android:id="@+id/txtDe"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_centerHorizontal="true"
-               android:background="@layout/yellow_button"
-               android:gravity="center_horizontal"
-               android:minWidth="80dp"
-               android:padding="8dp"
-               android:text="Department:"
-               android:textColor="#FFFFFF"
-               android:textSize="12dip"
-               android:textStyle="bold"
-               android:typeface="sans" />
-
- <TextView
-    android:id="@+id/txtDepartment"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centerHorizontal="true"
-    android:layout_toRightOf="@+id/ImageView1"
-    android:text="Department"
-    android:layout_marginLeft="10dp"
-    android:padding="8dp"
-    android:textColor="#040404"
-    android:textSize="12dip"
-    android:textStyle="bold"
-    android:typeface="sans" />          
-           
-              
-        </TableRow>     
-
-   
-   <TableRow
-            android:id="@+id/tableRow4"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="left" 
-            android:padding="5dp" >
-            
-
-           <TextView
-               android:id="@+id/txtEm"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_centerHorizontal="true"
-               android:background="@layout/yellow_button"
-               android:gravity="center_horizontal"
-               android:minWidth="80dp"
-               android:padding="8dp"
-               android:text="Email:"
-               android:textColor="#FFFFFF"
-               android:textSize="12dip"
-               android:textStyle="bold"
-               android:typeface="sans" />
-
- <TextView
-    android:id="@+id/txtEmail"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centerHorizontal="true"
-    android:layout_toRightOf="@+id/ImageView1"
-    android:text="email"
-    android:layout_marginLeft="10dp"
-    android:padding="8dp"
-    android:textColor="#040404"
-    android:textSize="12dip"
-    android:textStyle="bold"
-    android:typeface="sans" />          
-           
-              
-        </TableRow>     
-   
- <TableRow
-            android:id="@+id/tableRow4"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="left" 
-            android:padding="5dp" >
-            
-
-           <TextView
-               android:id="@+id/txtFn"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_centerHorizontal="true"
-               android:background="@layout/yellow_button"
-               android:gravity="center_horizontal"
-               android:minWidth="80dp"
-               android:padding="8dp"
-               android:text="Fax Number:"
-               android:textColor="#FFFFFF"
-               android:textSize="12dip"
-               android:textStyle="bold"
-               android:typeface="sans" />
-
- <TextView
-     android:id="@+id/txtFaxNumber"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_centerHorizontal="true"
-     android:layout_marginLeft="10dp"
-     android:layout_toRightOf="@+id/ImageView1"
-     android:padding="8dp"
-     android:text="fax"
-     android:textColor="#040404"
-     android:textSize="12dip"
-     android:textStyle="bold"
-     android:typeface="sans" />
-              
-        </TableRow>     
-   
-   
- <TableRow
-            android:id="@+id/tableRow4"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="left" 
-            android:padding="5dp" >
-            
-
-           <TextView
-               android:id="@+id/txtN"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_centerHorizontal="true"
-               android:background="@layout/yellow_button"
-               android:gravity="center_horizontal"
-               android:minWidth="80dp"
-               android:padding="8dp"
+               android:padding="2dp"
                android:text="First Name:"
-               android:textColor="#FFFFFF"
-               android:textSize="12dip"
+               android:textColor="#00004C"
                android:textStyle="bold"
                android:typeface="sans" />
 
- <TextView
-     android:id="@+id/txtFirstName"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_centerHorizontal="true"
-     android:layout_marginLeft="10dp"
-     android:layout_toRightOf="@+id/ImageView1"
-     android:padding="8dp"
-     android:text="First Name"
-     android:textColor="#040404"
-     android:textSize="12dip"
-     android:textStyle="bold"
-     android:typeface="sans" />
+ 
               
         </TableRow>     
    
  <TableRow
-            android:id="@+id/tableRow5"
+            android:id="@+id/tableRow1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:gravity="left" 
-            android:padding="5dp" >
+            android:padding="5dp" 
+            >
             
-
-           <TextView
-               android:id="@+id/txtLn"
+     <TextView
+               android:id="@+id/txtTitle"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:layout_centerHorizontal="true"
-               android:background="@layout/yellow_button"
-               android:gravity="center_horizontal"
-               android:minWidth="80dp"
-               android:padding="8dp"
-               android:text="Last Name:"
-               android:textColor="#FFFFFF"
-               android:textSize="12dip"
+               
+              
+               android:gravity="left"
+               
+               android:padding="2dp"
+               android:text="title"
+               android:textColor="#000000"
                android:textStyle="bold"
                android:typeface="sans" />
-
- <TextView
-     android:id="@+id/txtLastName"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_centerHorizontal="true"
-     android:layout_marginLeft="10dp"
-     android:layout_toRightOf="@+id/ImageView1"
-     android:padding="8dp"
-     android:text="last name"
-     android:textColor="#040404"
-     android:textSize="12dip"
-     android:textStyle="bold"
-     android:typeface="sans" />
-              
-        </TableRow>     
-   
- <TableRow
-            android:id="@+id/tableRow4"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="left" 
-            android:padding="5dp" >
-            
-
-           <TextView
-               android:id="@+id/txtNo"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_centerHorizontal="true"
-               android:background="@layout/yellow_button"
-               android:gravity="center_horizontal"
-               android:minWidth="80dp"
-               android:padding="8dp"
-               android:text="Notes:"
-               android:textColor="#FFFFFF"
-               android:textSize="12dip"
-               android:textStyle="bold"
-               android:typeface="sans" />
-
- <TextView
-     android:id="@+id/txtNotes"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_centerHorizontal="true"
-     android:layout_marginLeft="10dp"
-     android:layout_toRightOf="@+id/ImageView1"
-     android:padding="8dp"
-     android:text="notes"
-     android:textColor="#040404"
-     android:textSize="12dip"
-     android:textStyle="bold"
-     android:typeface="sans" />
-              
-        </TableRow>     
-   
-  
+     
+     </TableRow>
+        
+        
+ 
    <TableRow
-            android:id="@+id/tableRow4"
+            android:id="@+id/tableRow1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:gravity="left" 
-            android:padding="5dp" >
+            android:padding="2dp" 
+            >
             
 
+
            <TextView
-               android:id="@+id/txtPn"
+               android:id="@+id/txtData"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:layout_centerHorizontal="true"
-               android:background="@layout/yellow_button"
-               android:gravity="center_horizontal"
-               android:minWidth="80dp"
-               android:padding="8dp"
-               android:text="Phone Number:"
-               android:textColor="#FFFFFF"
-               android:textSize="12dip"
+               
+              
+               android:gravity="left"
+               
+               android:padding="2dp"
+               android:text="data"
+               android:textColor="#00004C"
                android:textStyle="bold"
                android:typeface="sans" />
 
- <TextView
-     android:id="@+id/txtPhoneNumber"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_centerHorizontal="true"
-     android:layout_marginLeft="10dp"
-     android:layout_toRightOf="@+id/ImageView1"
-     android:padding="8dp"
-     android:text="phone"
-     android:textColor="#040404"
-     android:textSize="12dip"
-     android:textStyle="bold"
-     android:typeface="sans" />
+ 
               
         </TableRow>     
-   
- <TableRow
-            android:id="@+id/tableRow4"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="left" 
-            android:padding="5dp" >
-            
-
-           <TextView
-               android:id="@+id/txtTt"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_centerHorizontal="true"
-               android:background="@layout/yellow_button"
-               android:gravity="center_horizontal"
-               android:minWidth="80dp"
-               android:padding="8dp"
-               android:text="Title:"
-               android:textColor="#FFFFFF"
-               android:textSize="12dip"
-               android:textStyle="bold"
-               android:typeface="sans" />
-
- <TextView
-     android:id="@+id/txtTitle"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_centerHorizontal="true"
-     android:layout_marginLeft="10dp"
-     android:layout_toRightOf="@+id/ImageView1"
-     android:padding="8dp"
-     android:text="title"
-     android:textColor="#040404"
-     android:textSize="12dip"
-     android:textStyle="bold"
-     android:typeface="sans" />
-              
-        </TableRow>     
-   
- 
- 
+        
         </TableLayout>
 
      
